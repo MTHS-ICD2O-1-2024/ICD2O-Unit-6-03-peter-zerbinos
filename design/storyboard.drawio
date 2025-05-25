@@ -1,11 +1,29 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1135" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                <mxCell id="21" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="45" y="20" width="760" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Current Weather Web Page" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="21">
+                    <mxGeometry y="23" width="760" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Click the button to get the current weather." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="21">
+                    <mxGeometry x="230" y="80" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;GET WEATHER&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="21">
+                    <mxGeometry x="320" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="21">
+                    <mxGeometry x="330" y="230" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="The current temperature is 11°C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="21">
+                    <mxGeometry x="260" y="170" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="The current weather is overcast clouds." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="21">
+                    <mxGeometry x="240" y="210" width="280" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
